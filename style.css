@@ -1,0 +1,254 @@
+    body {
+      background-image: url("bg3.jpg");
+      background-size: cover;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+
+    header {
+      background-image: url("bg4.jpg");
+      color: #fff;
+      text-align: center;
+      padding: 0 0 10px 0;
+      background-size: cover;
+      border: 2px solid rgb(255, 254, 254);
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav li {
+      margin: 0 10px 0 0;
+      float: left;
+
+    }
+
+    nav li a {
+      display: block;
+      background: rgb(192, 149, 116);
+      padding: 20px 20px;
+      white-space: nowrap;
+      color: rgb(255, 230, 230);
+      text-decoration: none;
+      text-align: center;
+      border: 2px solid rgb(255, 254, 254);
+      border-radius: 5px;
+    }
+
+    nav img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+
+    nav img {
+      width: 70px;
+      height: 70px;
+    }
+
+    .bar {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-bottom: 20px;
+    }
+
+    .bar img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .bar p {
+      margin: 0;
+      position: relative;
+      margin-left: 265px;
+      font-size: 2.5em;
+    }
+
+    .bauturi {
+      display: flex;
+    }
+
+    .shoturi {
+      width: 33.3%;
+      margin: 10px;
+      background: rgb(181, 124, 86);
+    }
+
+    .alchool {
+      padding: 10px;
+    }
+
+    .alchool h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .alchool img {
+      width: 100%;
+    }
+
+    .alchool p {
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    .cocktailuri {
+      display: flex;
+    }
+
+    .portocale {
+      width: 50%;
+      margin: 15px;
+      background: rgb(181, 124, 86);
+    }
+
+    .lamaie {
+      padding: 15px;
+    }
+
+    .lamaie h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .lamaie img {
+      width: 100%;
+    }
+
+    .lamaie p {
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    .muzica {
+      display: flex;
+    }
+
+    .dj {
+      width: 50%;
+      margin: 15px;
+    }
+
+    .locatie {
+      padding: 20px;
+    }
+
+    .locatie h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .locatie p {
+      margin-bottom: 0;
+      text-align: center;
+
+    }
+
+    .coloane {
+      display: flex;
+    }
+
+    .despartire {
+      width: 50%;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .paragraf p {
+      margin-bottom: 25px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .paragraf img {
+      margin-top: 18px;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+    .galerie{
+      display: flex;
+    }
+    .imagini{
+      width: 33.3%;
+      margin: 10px;
+    }
+    .sortimente{
+      padding: 10px;
+    }
+    .sortimente img{
+      width: 100%;
+
+    }
+    .pahare{
+      width: 50%;
+      margin: 10px;
+    }
+    .sticla{
+      padding: 10px;
+    }
+    .sticla img{
+      width: 100%;
+
+    }
+    .bg{
+      background: rgb(181, 124, 86);
+      border-radius: 5px;
+    }
+    .centru{
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.5em;
+
+    }
+
+    footer {
+      display: flex;
+      height: 70px;
+      background-image: url("bg4.jpg");
+      background-size: cover;
+      border-radius: 5px;
+      align-content: space-between;
+      justify-content: center;
+      margin: 10px;
+    }
+
+    footer img {
+      justify-items: center;
+      height: 100%;
+    }
+
+    footer p {
+      margin-left: 20px;
+    }
